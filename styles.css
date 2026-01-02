@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+* { font-family: 'Inter', sans-serif; }
+
+.main { 
+    background: linear-gradient(135deg, #1e3a8a 0%, #1e40af 50%, #1d4ed8 100%);
+}
+.stApp { background-color: transparent; }
+
+[data-testid="stSidebar"] > div:first-child {
+    background: radial-gradient(circle at top left, #1e40af 0%, #020617 55%, #000 100%);
+    border-right: 1px solid rgba(148,163,184,0.4);
+    box-shadow: 0 0 25px rgba(15,23,42,0.9);
+    padding-top: 0.6rem;
+}
+
+.smartbank-title { font-size: 20px; font-weight: 700; color: #e5e7eb; }
+.smartbank-subtitle { font-size: 12px; color: #9ca3af; }
+.chat-history-label { font-size: 13px; font-weight: 600; color: #c7d2fe; letter-spacing: 0.04em; text-transform: uppercase; }
+
+.chat-bubble { padding: 16px 20px; margin: 8px 0; border-radius: 18px; max-width: 85%; backdrop-filter: blur(15px); border: 1px solid rgba(255,255,255,0.2); }
+.user-bubble { background: rgba(34,197,94,0.2); margin-left: auto; }
+.bot-bubble { background: rgba(255,255,255,0.15); }
+
+.header-card { background: rgba(255,255,255,0.1); backdrop-filter: blur(20px); border-radius: 20px; padding: 24px; border: 1px solid rgba(255,255,255,0.2); }
+.ollama-input { background: rgba(15,23,42,0.9) !important; border: 1px solid rgba(129,140,248,0.4) !important; border-radius: 10px !important; color: #e5e7eb !important; }
